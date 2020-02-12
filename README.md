@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/jkarw08wuns718ug/branch/master?svg=true)](https://ci.appveyor.com/project/VickyBooGit/aqa-task-4-selenide/branch/master)
