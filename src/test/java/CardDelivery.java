@@ -14,12 +14,12 @@ public class CardDelivery {
         $("[placeholder='Город']").setValue("Петрозаводск").pressEnter();
         $("[type='tel']").sendKeys(Keys.CONTROL, "a");
         $("[type='tel']").sendKeys(Keys.DELETE);
-        $("[type='tel']").setValue("20.02.2020");
+        $("[type='tel']").setValue("25.03.2020");
         $("[name='name']").setValue("Иванов Иван");
         $("[name='phone']").setValue("+78589658432");
         $("[class='checkbox__box']").click();
         $$("button").find(Condition.exactText("Забронировать")).click();
-        $(withText("Успешно!")).waitUntil(Condition.visible, 15000);
+        $(withText("Успешно!")).waitUntil(Condition.visible, 25000);
 
 
     }
